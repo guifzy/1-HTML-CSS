@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@600&display=swap');
+
+:root{
+    --cor--principal: black;
+    --cor--secundaria: #22DAFD;
+    --cor--tercearia: #0089a7;
+    --cor4:#F6F6F6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor--principal);
+    color: var(--cor4);
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 7%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    font-family:'Krona One', sans-serif;
+    font-size: 24px;
+    color: var(--cor--tercearia);    
+}
+
+.titulo-destaque {
+    color: var(--cor--secundaria);
+}
+
+.tecnologias {
+    color: var(--cor--tercearia);
+}
+
+.apresentacao {
+    padding: 8% 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+
+.apresentacao__conteudo {
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 40px;
+    font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__paragrafo {
+    font-size: 24px;
+    font-family: 'Montagu Slab', serif;
+}
+
+.apresentacao__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.apresentacao__links_subtitulo {
+    font-family: 'Krona One', serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.apresentacao__links__botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    text-align: center;
+    text-decoration: none;
+    /* background-color: #22D4FD; */
+    border: 2px solid var(--cor--secundaria);
+    width: 378px;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 21.5px 0;
+    color: var(--cor4);
+    font-weight: 600;
+    font-family: 'Krona One', serif;
+
+}
+
+.apresentacao__links__botao:hover {
+    background-color: #272727;
+}
+
+.rodape {
+    padding: 24px;
+    background-color: var(--cor--secundaria);
+    color: var(--cor--principal);
+    text-align: center;
+    font-family: 'Krona One', serif;
+    font-size: 24px;
+    font-weight: 400;
+}
